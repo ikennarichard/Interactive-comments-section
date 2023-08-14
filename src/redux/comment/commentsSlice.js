@@ -82,7 +82,7 @@ export const commentsSlice = createSlice({
       const newComment = {
         id: uuidV4(),
         content,
-        createdAt: '',
+        createdAt: 'Just now',
         score: 0,
         user: state.currentUser,
         replies: [],
