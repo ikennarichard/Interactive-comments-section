@@ -1,8 +1,8 @@
 {
   "currentUser": {
     "image": { 
-      "png": "./images/avatars/image-juliusomo.png",
-      "webp": "./images/avatars/image-juliusomo.webp"
+      "png": "/assets/images/avatars/image-juliusomo.png",
+      "webp": "/assets/images/avatars/image-juliusomo.webp"
     },
     "username": "juliusomo"
   },
@@ -14,8 +14,8 @@
       "score": 12,
       "user": {
         "image": { 
-          "png": "./images/avatars/image-amyrobson.png",
-          "webp": "./images/avatars/image-amyrobson.webp"
+          "png": "/assets/images/avatars/image-amyrobson.png",
+          "webp": "/assets/images/avatars/image-amyrobson.webp"
         },
         "username": "amyrobson"
       },
