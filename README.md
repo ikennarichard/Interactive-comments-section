@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - [Solution Url](https://github.com/ikennarichard/Interactive-comments-section)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live site](https://rich-interactive-comments.netlify.app)
 
 ## My process
 
