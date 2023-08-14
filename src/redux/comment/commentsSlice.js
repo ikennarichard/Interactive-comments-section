@@ -79,7 +79,6 @@ export const commentsSlice = createSlice({
 
     addComment: (state, action) => {
       const {content} = action.payload
-      console.log('hello')
       const newComment = {
         id: uuidV4(),
         content,
