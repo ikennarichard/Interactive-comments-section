@@ -27,6 +27,10 @@ export default function Comment({
     setShowReplyInput(false);
     setReplyInput('@'+username+',');
   }
+
+  function cancel () {
+    setShowReplyInput(false);
+  }
   return (
     <>
     <article className="comment_grid">
@@ -89,10 +93,18 @@ export default function Comment({
               value={replyInput}
               onChange={(e) => setReplyInput(e.target.value)}
             ></textarea>
-            <button 
-            type="submit"
-            className="send reply_btn_"
-            >REPLY</button>
+            <div className="cancel_reply">
+              <button
+              type="submit"
+              className="send reply_btn_"
+              >REPLY</button>
+              <button
+              className="cancel_with_reply"
+              type="button"
+              onClick={cancel}>
+              CANCEL
+              </button>
+            </div>
           </form>
         </div>
 

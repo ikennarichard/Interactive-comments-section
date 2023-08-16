@@ -34,6 +34,8 @@ export default function Replies({
     setShowReplyInput(false);
     setReplyInput('@'+sender+',');
   }
+
+
   return (
     <div className='reply_wrapper'>
       <article className="replies comment_grid">

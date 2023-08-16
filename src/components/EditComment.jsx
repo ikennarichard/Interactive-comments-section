@@ -22,6 +22,10 @@ export default function EditComment({
 
       toggleCanEdit()
     }
+
+    function cancel() {
+      toggleCanEdit()
+    }
   return (
     <div className="edit_container">
       <form 
@@ -34,9 +38,17 @@ export default function EditComment({
         value={editedComment}
         onChange={(e) => setEditedComment(e.target.value)} 
         ></textarea>
-        <button 
-        className="send"
-        >UPDATE</button>
+        <div className="cancel_reply">
+          <button
+          className="update"
+          >UPDATE</button>
+          <button
+            className="cancel_with_reply"
+            type="button"
+            onClick={cancel}>
+            CANCEL
+          </button>
+        </div>
       </form>
     </div>
   )

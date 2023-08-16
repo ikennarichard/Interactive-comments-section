@@ -360,6 +360,36 @@ textarea:focus {
   overflow: hidden;
 }
 
+/* cancel_reply_container */
+.cancel_reply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3em;
+}
+
+.cancel_reply > * {
+  width: 80px;
+}
+
+.cancel_with_reply {
+  appearance: none;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--grayish-blue);
+  color: var(--white);
+}
+
+.update {
+  appearance: none;
+  padding: 0.5em;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--moderate-blue);
+  color: var(--white);
+}
+
 @keyframes dropdown {
   from {
     opacity: 0;
