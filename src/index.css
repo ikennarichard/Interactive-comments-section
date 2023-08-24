@@ -415,6 +415,7 @@ textarea:focus {
 
   .votes {
     flex-direction: row;
+    width: 80px;
   }
 
   .comment_grid, .edit_form_container {
