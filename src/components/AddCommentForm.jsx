@@ -7,6 +7,7 @@ export default function AddCommentForm({
 
   function handleSubmit(e) {
     e.preventDefault()
+    if (content === '') return;
     addComment()
     handleSetContent('')
   }
