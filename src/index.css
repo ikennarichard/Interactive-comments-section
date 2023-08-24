@@ -165,7 +165,7 @@ article, .comment_box {
 
 .votes {
   background-color: var(--very-light-gray);
-  width: fit-content;
+  width: 30px;
   padding: 4px;
   border-radius: 10px 5% / 20px 30px;
   display: flex;
