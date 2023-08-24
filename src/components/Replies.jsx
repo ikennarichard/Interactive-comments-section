@@ -75,7 +75,7 @@ export default function Replies({
         <div className="vr_ interactions">      
           <button
           className="reply"
-            onClick={() => setShowReplyInput(true)}>
+            onClick={() => setShowReplyInput((prev) => !prev)}>
             <img className="reply" src="/assets/images/icon-reply.svg"/>
             Reply
           </button>

@@ -72,7 +72,7 @@ export default function Comment({
         <button
         className="reply" 
         type="button"
-        onClick={() => setShowReplyInput(true)}
+        onClick={() => setShowReplyInput((prev) => !prev)}
         ><img src="/assets/images/icon-reply.svg"/>Reply</button>
       </div>
     </article>
