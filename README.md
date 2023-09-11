@@ -72,4 +72,4 @@ Explore redux middleware for asynchronous actions, mastering selectors and under
 
 - Frontend Mentor
 - [Microverse](https://www.microverse.org)
-- Everyone thats given me a lesson, thank you!
+- Everyone thats given me a lesson!
