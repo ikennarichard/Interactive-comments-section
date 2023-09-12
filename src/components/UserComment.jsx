@@ -139,7 +139,8 @@ export default function UserComment({
     </article>
 
     }
-      {modalView && 
+      {
+      modalView && 
         <Modal
           onDelete={deleteComment}
           onCancel={toggleModal}

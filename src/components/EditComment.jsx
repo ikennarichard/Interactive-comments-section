@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { editReply } from "../redux/comment/commentsSlice";
+import { editReply, editComment } from "../redux/comment/commentsSlice";
 
 export default function EditComment({
    comment,
@@ -14,11 +14,20 @@ export default function EditComment({
 
     function handleSubmit(e) {
       e.preventDefault();
-      dispatch(editReply({
-        commentId: commentId,
-        replyId: replyId, 
-        content: editedComment,
-      }))
+
+      if (replyId !== undefined) {
+        dispatch(editReply({
+          commentId: commentId,
+          replyId: replyId, 
+          content: editedComment,
+        }))
+      } else {
+        dispatch(editComment({
+          commentId: commentId,
+          content: editedComment,
+        }))
+      }
+
 
       toggleCanEdit()
     }
